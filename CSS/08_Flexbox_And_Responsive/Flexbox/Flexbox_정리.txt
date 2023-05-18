@@ -1,0 +1,45 @@
+display: flex;
+=> turning it on.
+
+flex-direction: row; (default)
+flex-direction: row-reverse;
+flex-direction: column; (change the main axis to top to bottom)
+flex-direction: column-reverse (bottom to top)
+=> decide on the main axis
+
+justify-content: flex-start; (default)
+justify-content: flex-end;
+justify-content: center;
+justify-content: space-between;
+justify-content: space-around;
+justify-content: space-evenly;
+=> main axis alignment.
+
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+flex-wrap: nowrap;
+=> elements are going to wrap along the main aixs onto new line.
+=> (wrap-reverse) main axis is same but cross axis will change.
+
+align-items: flex-start;
+align-items: flex-end;
+align-items: center;
+align-items: baseline; (text)
+=> align items/elements along the cross axis.
+
+align-content: space-between;
+align-content: flex-start;
+align-content: flex-end;
+align-content: center;
+=> control/distribute space along the cross axis but only when we have multipe rows/columns.
+
+align-self: flex-start;
+align-self: flex-end;
+align-self: center;
+=> add to a single element in the flex container.
+
+flex-basis, flex-grow, flex-shrink
+-> flex
+(1)defines the initial size.
+(2)unit-less. controls the amount of available space an element should take up.
+(3)unit-less. if items are larger than the container, they shrink accordingly.
